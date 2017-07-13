@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5069A8551B953A6B00F52AF6 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		509281B21B93FF18008B303C /* myBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509281B61B93FF18008B303C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		509281B71B93FF18008B303C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 			children = (
 				509281B91B93FF18008B303C /* AppDelegate.h */,
 				509281BA1B93FF18008B303C /* AppDelegate.m */,
+				5069A8551B953A6B00F52AF6 /* Header.h */,
 				509281BC1B93FF18008B303C /* ViewController.h */,
 				509281BD1B93FF18008B303C /* ViewController.m */,
 				509281BF1B93FF18008B303C /* Main.storyboard */,
@@ -168,6 +170,7 @@
 				TargetAttributes = {
 					509281B11B93FF18008B303C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 247WWXJD8R;
 					};
 					509281CA1B93FF18008B303C = {
 						CreatedOnToolsVersion = 6.4;
@@ -280,6 +283,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -323,6 +327,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -347,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 247WWXJD8R;
 				INFOPLIST_FILE = myBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 247WWXJD8R;
 				INFOPLIST_FILE = myBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +423,7 @@
 				509281D71B93FF18008B303C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		509281D81B93FF18008B303C /* Build configuration list for PBXNativeTarget "myBlockTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +432,7 @@
 				509281DA1B93FF18008B303C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
